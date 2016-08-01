@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>img/Menu.jpg</file>
+        <file>img/profilepic/1.png</file>
+        <file>img/profilepic/2.png</file>
+        <file>img/profilepic/3.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>img/profilepic/logout.png</file>
+        <file>img/profilepic/fermer.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>e_menu</class>
+ <widget class="QMainWindow" name="e_menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="nom_e">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>45</y>
+      <width>651</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-family: &quot;Moon&quot;, Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  color: #e74c3c;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1366</width>
+      <height>768</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix1/img/Menu.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>20</y>
+      <width>283</width>
+      <height>315</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>390</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>610</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Valider</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DF">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>290</y>
+      <width>401</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 32px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #2980b9;</string>
+    </property>
+    <property name="text">
+     <string>Demande D'une Formation</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DF_2">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>290</y>
+      <width>401</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 32px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #2980b9;</string>
+    </property>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="date_for">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>390</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bjr">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>351</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-family: &quot;Moon&quot;, Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  color: #2980b9;</string>
+    </property>
+    <property name="text">
+     <string>Bonjour</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="prn_e">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>630</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="msg">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>150</y>
+      <width>291</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 18px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+color: #ecf0f1;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_msg1">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>30</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix1/img/profilepic/1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_msg1_2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>30</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix1/img/profilepic/3.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_msg1_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>30</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix1/img/profilepic/2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Logout">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>600</y>
+      <width>181</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix2/img/profilepic/logout.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>630</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string notr="true"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 0px 0px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #000000;
+  background-color: rgb(0,0,0,0);
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>bg</zorder>
+   <zorder>nom_e</zorder>
+   <zorder>img</zorder>
+   <zorder>cb</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>DF</zorder>
+   <zorder>DF_2</zorder>
+   <zorder>date_for</zorder>
+   <zorder>bjr</zorder>
+   <zorder>prn_e</zorder>
+   <zorder>msg</zorder>
+   <zorder>img_msg1</zorder>
+   <zorder>img_msg1_2</zorder>
+   <zorder>img_msg1_3</zorder>
+   <zorder>Logout</zorder>
+   <zorder>pb</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

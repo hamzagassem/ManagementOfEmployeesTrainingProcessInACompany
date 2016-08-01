@@ -1,0 +1,147 @@
+QPushButton
+{
+padding: 0px 0px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #fff;
+  background-color: #e74c3c;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+QPushButton:pressed
+{
+color: #fff;
+  background-color: #ec7063;
+  border-color: #ec7063;
+}
+QPushButton:hover
+{
+color: #fff;
+  background-color: #ec7063;
+  border-color: #ec7063;
+}
+
+
+
+.pb
+{
+padding: 0px 0px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #fff;
+  background-color: #e74c3c;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+.pb:pressed
+{
+color: #fff;
+  background-color: #fffff;
+  border-color: #fff;
+}
+.pb:hover
+{
+color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+
+
+QLineEdit,QLabel,QDateEdit,QComboBox,QTableView,QRadioButton
+ {
+  height: 42px;
+  padding: 0px 0px;
+  font-family: "Moon", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  line-height: 0;
+  color: #a8b6bd;
+  border: 2px solid #f4e4a2;
+  border-radius: 6px;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+  }
+QLineEdit:focus {
+  border-color: #1abc9c;
+  outline: 0;
+  box-shadow: none;
+  }
+
+QDateEdit:focus {
+border-color: #1abc9c;
+outline: 0;
+box-shadow: none;
+}
+QComboBox:focus {
+border-color: #1abc9c;
+outline: 0;
+box-shadow: none;
+}
+QTableView:focus {
+border-color: #1abc9c;
+outline: 0;
+box-shadow: none;
+}
+QRadioButton:focus {
+border-color: #1abc9c;
+outline: 0;
+box-shadow: none;
+}
+
+
+
+
+   QTabWidget::pane { /* The tab widget frame */
+         border-top: 2px solid #F1C40F;
+
+
+     }
+
+     QTabWidget::tab-bar {
+     alignment: center;
+     }
+
+     /* Style the tab using the tab sub-control. Note that
+         it reads QTabBar _not_ QTabWidget */
+     QTabBar::tab {
+         background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+         stop: 0 #fafafa, stop: 0.4 #f4f4f4,
+         stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+          background-color: #F39C12;
+        width: 150px;
+        height: 25px;
+
+     }
+
+     QTabBar::tab:selected, QTabBar::tab:hover {
+         background: #F1C40F
+     }
+
+
+QLabel
+{
+padding: 0px 0px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #fff;
+  background-color: #e74c3c;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+
+
+
+
+

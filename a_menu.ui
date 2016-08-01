@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>a_menu</class>
+ <widget class="QMainWindow" name="a_menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1366</width>
+      <height>768</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix1/img/Menu.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>20</y>
+      <width>283</width>
+      <height>315</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nom_e">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>45</y>
+      <width>651</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-family: &quot;Moon&quot;, Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  color: #e74c3c;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bjr">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>351</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-family: &quot;Moon&quot;, Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  color: #2980b9;</string>
+    </property>
+    <property name="text">
+     <string>Bonjour</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="date_for">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>360</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendar">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>440</y>
+      <width>441</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDateEdit {
+min-height:+QString::number(this-&gt;editHeight)&quot;px; &quot;
+max-height:&quot;+QString::number(this-&gt;editHeight)+&quot;px; &quot;
+min-width:&quot;+QString::number(this-&gt;editWidth)+&quot;px; &quot;
+margin: 0px; padding-top: 0x; padding-bottom: 0px; &quot;
+color: rgb(90,31,0); background-color: rgb(253, 231, 146);&quot;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cata">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>420</y>
+      <width>461</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-family: &quot;Moon&quot;, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #e74c3c;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="date_deb_txt">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>360</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-family: &quot;Moon&quot;, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #2980b9;</string>
+    </property>
+    <property name="text">
+     <string>Date approximative De La Formation</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inscri">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>250</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inscrire</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nn">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>250</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Annuler La Demande</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="date_for_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>360</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="date_deb_txt_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>360</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-family: &quot;Moon&quot;, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #2980b9;</string>
+    </property>
+    <property name="text">
+     <string>Type De Formation</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Logout">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>600</y>
+      <width>181</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix2/img/profilepic/logout.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>630</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string notr="true"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 0px 0px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #000000;
+  background-color: rgb(0,0,0,0);
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

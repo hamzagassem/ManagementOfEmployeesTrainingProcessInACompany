@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLineEdit" name="LN_CIN">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>260</y>
+      <width>371</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Entrez Votre CIN</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LN_PWD">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>340</y>
+      <width>371</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BT_Login">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>450</y>
+      <width>291</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BT_Login
+{
+padding: 10px 15px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius: 4px;
+color: #fff;
+  background-color: #1abc9c;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+QPushButton#BT_Login:pressed
+{
+color: #fff;
+  background-color: #48c9b0;
+  border-color: #48c9b0;
+}
+QPushButton#BT_Login:hover
+{
+color: #fff;
+  background-color: #48c9b0;
+  border-color: #48c9b0;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Log In</string>
+    </property>
+   </widget>
+   <widget class="QWebView" name="webView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1366</width>
+      <height>768</height>
+     </rect>
+    </property>
+    <property name="url">
+     <url>
+      <string>file:///F:/Hamza/projets/QT Projects/GLQT_1/GL_QT/index.html</string>
+     </url>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fermer">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>-30</y>
+      <width>181</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/new/prefix2/img/profilepic/fermer.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>10</y>
+      <width>51</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string notr="true"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 0px 0px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius:4 px;
+color: #000000;
+  background-color: rgb(0,0,0,0);
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>webView</zorder>
+   <zorder>LN_CIN</zorder>
+   <zorder>LN_PWD</zorder>
+   <zorder>BT_Login</zorder>
+   <zorder>fermer</zorder>
+   <zorder>pb</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKit/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
